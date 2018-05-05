@@ -1,0 +1,33 @@
+nav.navbar {
+  background-color: brown;
+  min-height: 30px;
+  position: fixed;
+  max-width: 100%;
+  color: gold;
+
+  /*Prevents image overlay onto navbar*/
+  z-index: 99;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0px 15%;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  text-align: center;
+  color: gold;
+  font-weight: 1000;
+  font-size: 50px;
+}
+
+.navbar p {
+font-size: 20px;
+}
